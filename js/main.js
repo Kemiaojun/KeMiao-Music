@@ -154,7 +154,7 @@ var heo = {
   },
   setMediaMetadata: function (aplayerObj, isSongPlaying) {
     const audio = aplayerObj.list.audios[aplayerObj.list.index]
-    const coverUrl = audio.cover || './img/icon.webp';
+    const coverUrl = audio.cover || 'https://cdn.jsdelivr.net/gh/kmfx/tuchuang@main/img/202503171226033.png';
     const currentLrcContent = document.getElementById("heoMusic-page").querySelector(".aplayer-lrc-current").textContent;
     let songName, songArtist;
 
@@ -308,7 +308,7 @@ document.addEventListener("keydown", function (event) {
 });
 
 // 监听窗口大小变化
-window.addEventListener('resize', function() {
+window.addEventListener('resize', function () {
   if (window.innerWidth > 768) {
     ap.list.show();
   } else {
