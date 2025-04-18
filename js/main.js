@@ -4,7 +4,7 @@ var isScrolling = false; // 添加全局变量 isScrolling，默认为 false
 var scrollTimer = null; // 添加定时器变量
 
 if (typeof userId === 'undefined') {
-  var userId = "8152976493"; // 替换为实际的默认值
+  var userId = "2607560262"; // 替换为实际的默认值
 }
 if (typeof userServer === 'undefined') {
   var userServer = "netease"; // 替换为实际的默认值
